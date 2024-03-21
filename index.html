@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <script type="text/javascript" src="js/imgCarousel.js"></script>
+    <title>Home - The White Lion Arreton</title>
+</head>
+<body>
+    <div id="header">
+        <div  class="flex-div">
+            <div id="headerlogo" class="flex-child">
+                <h1><img src="./img/logo_temp.png" alt="White Lion Logo" id="imglogo">The White Lion</h1>
+            </div>
+            <div class="flex-child">
+                <h2 style="text-align: right;">Home</h2>
+            </div>
+        </div>
+        <div>
+            <nav>
+                <a href="./index.html">Home</a>    
+                <a href="./about.html">About</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+    <hr>
+    <h2>A Warm Welcome!</h2>
+        <div class="centered-div">
+            <button id="btnPrev" onclick="PrevImage()" style="border-radius: 25px 0px 0px 25px;">Prev</button>
+            <img id="image" src="./img/welcome.jpg" alt="image" width="50%">
+            <button id="btnNext" onclick="NextImage()" style="border-radius: 0px 25px 25px 0px;">Next</button>
+        </div>
+    <div id="footer">
+        <h2>&copy; White Lion Arreton</h2>
+    </div>
+</body>
+</html>

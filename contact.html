@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/MailTo.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Contact - The White Lion Arreton</title>
+</head>
+<body>
+    <div id="header">
+        <div  class="flex-div">
+            <div id="headerlogo" class="flex-child">
+                <h1><img src="./img/logo_temp.png" alt="White Lion Logo" id="imglogo">The White Lion</h1>
+            </div>
+            <div class="flex-child">
+                <h2 style="text-align: right;">Contact</h2>
+            </div>
+        </div>
+        <div>
+            <nav>
+                <a href="./index.html">Home</a>    
+                <a href="./about.html">About</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+    <hr>
+    <div class="flex-div" style="border-collapse: collapse;">
+        <div class="flex-child" style="border:2px solid black">
+            <h2>Send us an email!</h2>
+            <form>
+                <label for="message">Your message</label><br>
+                <textarea rows="10" cols="64" style="resize: none" id="message" name="message"  wrap="hard"></textarea><br>
+                <button type="button" onclick="Sub()">Send message</button><em style="margin-left: 5px;">(This will open your default email application)</em>
+            </form>
+        </div>
+        <div class="flex-child" style="border:2px solid black">
+            <h2>Give us a call!</h2>
+            <p>[Tel]</p>
+            <h2>Come and visit us!</h2>
+            <p>[Address to go here!]</p>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <h2>&copy; White Lion Arreton</h2>
+    </div>
+</body>
+</html>

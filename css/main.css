@@ -1,0 +1,80 @@
+#header{
+    background-color: black;
+    color: aliceblue;
+}
+
+#footer{
+    background-color: black;
+    color:white;
+}
+
+#imglogo{
+    height: 128px;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.flex-div{
+    display: flex;
+}
+
+.flex-child{
+    flex: 1;
+    padding: 10px;
+}
+
+.flex-child-large{
+    flex: 5;
+    padding: 10px;
+}
+
+.flex-child-small{
+    flex: 1;
+    padding: 10px;
+}
+
+.flex-child-small img{
+    height: 200px;
+}
+
+.menu-table{
+    border: 10px solid black;
+    border-collapse: collapse;
+}
+
+.menu-table td{
+    border : 1px solid black;
+    padding: 10px;    
+    border-collapse: collapse;
+}
+
+#openingTimes{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+#openingTimes td{
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.bigheader{
+    border: 5px solid black;
+
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.centered-div{
+    display: flex;
+    justify-content: center;
+}
